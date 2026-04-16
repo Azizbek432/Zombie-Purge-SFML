@@ -5,17 +5,18 @@ A 2D shooter game created using C++ and the SFML library. This project is based 
 ## 🌟 Features
 
 - **Double Control:** The game can be controlled both with `W/S` and with the direction indicators (`Arrow Keys`).
-
 - **Dynamic Difficulty:** As the score increases, the zombies accelerate and the spawn rate decreases.
 - **Parallax Background:** Infinite and moving background effect.
 - **Zombie Wobble:** Zombies wobble using a sine function (real zombie effect).
 
 ## 🎮 Controls
 
-- **Up:** `W` or `↑` (Up Arrow)
-- **Down:** `S` or `↓` (Down Arrow)
-- **Shoot:** `Space` (Spacebar)
-- **Restart:** `R` (After Game Over)
+| Action | Keys |
+|--------|------|
+| Move Up | `W` or `↑` (Up Arrow) |
+| Move Down | `S` or `↓` (Down Arrow) |
+| Shoot | `Space` (Spacebar) |
+| Restart | `R` (After Game Over) |
 
 ## 🛠️ Technologies
 
@@ -29,17 +30,20 @@ A 2D shooter game created using C++ and the SFML library. This project is based 
 ```text
 .
 ├── assets/
-│ ├── hero.png # Hero sprite
-│ ├── enemy.png # Zombie sprite
-│ └── background.png # Game background
-├── main.cpp # Main code
-├── README.md # Project information
-└── .gitignore # Restrict unnecessary files
+│   ├── hero.png         # Hero sprite
+│   ├── enemy.png        # Zombie sprite
+│   └── background.png   # Game background
+├── main.cpp             # Main code
+├── README.md            # Project information
+└── .gitignore           # Restrict unnecessary files
 ```
 
+---
+
 <details>
-  <summary>O'zbekcha<summary />
-    # 🧟 Zombie Purge
+  <summary>O'zbekcha</summary>
+
+# 🧟 Zombie Purge
 
 C++ va SFML kutubxonasi yordamida yaratilgan 2D shooter o'yini. Bu loyiha dasturlash mantiqi, grafik elementlar bilan ishlash va real-vaqtda to'qnashuvlarni hisoblash asosida qurilgan.
 
@@ -52,10 +56,12 @@ C++ va SFML kutubxonasi yordamida yaratilgan 2D shooter o'yini. Bu loyiha dastur
 
 ## 🎮 Boshqaruv
 
-- **Tepaga:** `W` yoki `↑` (Up Arrow)
-- **Pastga:** `S` yoki `↓` (Down Arrow)
-- **O'q otish:** `Space` (Bo'shliq tugmasi)
-- **Qayta boshlash:** `R` (Game Over-dan keyin)
+| Harakat | Tugmalar |
+|---------|----------|
+| Tepaga | `W` yoki `↑` (Up Arrow) |
+| Pastga | `S` yoki `↓` (Down Arrow) |
+| O'q otish | `Space` (Bo'shliq tugmasi) |
+| Qayta boshlash | `R` (Game Over-dan keyin) |
 
 ## 🛠️ Texnologiyalar
 
@@ -76,4 +82,5 @@ C++ va SFML kutubxonasi yordamida yaratilgan 2D shooter o'yini. Bu loyiha dastur
 ├── README.md            # Loyiha haqida ma'lumot
 └── .gitignore           # Keraksiz fayllarni cheklash
 ```
+
 </details>
